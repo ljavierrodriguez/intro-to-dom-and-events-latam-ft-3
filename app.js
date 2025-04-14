@@ -118,8 +118,21 @@ loginForm.addEventListener('submit', (e) => {
         error = false
     }
 
+    let password = document.querySelector('input[type=password]')
+    if(password.value == ''){
+        password.classList.add('alert')
+        error = true
+    } else {
+        password.classList.remove('alert')
+        error = false
+    }
+
+
+
     if(!error){
         e.target.submit()
+    } else {
+        // codigo para mostrar el alert
     }
 })
 
