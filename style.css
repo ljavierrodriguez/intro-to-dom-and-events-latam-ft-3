@@ -1,0 +1,33 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+}
+
+.box-border-dotted {
+    border: 2px dotted black;
+}
+
+.box:hover {
+    background-color: red;
+}
+
+.alert {
+    border: 1px solid red;
+    background-color: #ea8484;
+}
+
+.google {
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:brown;
+    margin: 20px 40px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
